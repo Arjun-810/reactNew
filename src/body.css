@@ -1,0 +1,90 @@
+.btn{
+    font-weight: bold;   
+    border-radius: 30px;
+    background: #00c9ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00c9ff, #92fe9d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00c9ff, #92fe9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    border: none;
+    font-size: 120%;
+}
+.section1{
+    background-color: #08aeea;
+    background-image: linear-gradient(0deg, #08aeea 0%, #2af5d6 100%);
+    /* border-radius: 0 40px; */
+    text-align: center;
+    padding: 70px;
+
+}
+.wshop{
+    font-size: 130%;
+    color: black;
+}
+.section1 h2{
+    font-weight: bold;
+}
+.section1 h4{
+    color: white;
+}
+
+.section2{
+    margin-top: 100px;
+}
+
+.section2 .heading{
+    position: relative;
+    top: -150PX;
+    text-align: center;
+    color: rgb(216, 188, 29);
+    font-weight: bold;
+}
+.heading h3{
+    font-weight: bolder;
+}
+.exploreMore{
+    background: rgba(0,0,0,0.7);
+    color: white;
+}
+.section4{
+    margin-top: 100px;
+}
+.insta-img{
+    margin-top: 50px;
+}
+.section5{
+    margin-top: 100px;
+}
+.heading1{
+    margin-bottom: 20px;
+    color: black;
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    animation: fadein 0.5s;
+  }
+  @keyframes fadein {
+    from { margin-bottom: 10px}
+    to   { margin-bottom: 50px;}
+  }
+.heading1 h1{
+    color: rgb(228, 68, 121);
+    font-size: 330%;
+}
+.heading1 h4{
+    color: white;
+    font-weight: bolder;
+
+}
+.btncaro{
+    margin-bottom: 50px;
+    background: rgba(0,0,0,0.7);
+    color: yellow;
+    font-size: 30px;
+}
+.section6{
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 30px;
+    padding: 10px;
+}
+.section6 i{
+    padding: 5px;
+}
