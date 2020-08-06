@@ -18,30 +18,23 @@ class Landing extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="justify-content-end" style={{ width: "95%" }}>
-                <Nav.Link href="#features">Home</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="#pricing">Trending</Nav.Link>
                 <NavDropdown title="Hobbies" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.1">Creative Hobbies</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">Value Hobbies</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Technical Hobbies</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Our mentors" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1">Creative Hobbies</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">Value Hobbies</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Technical Hobbies</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#pricing">About us</Nav.Link>
                 <Nav.Link href="#pricing">Contact us</Nav.Link>
                 <NavDropdown title="Join us" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                  <NavDropdown.Item href="/app">Be a mentor</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">Join our team</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#pricing"><i className="fa fa-instagram" /></Nav.Link>
                 <Nav.Link href="#pricing"><i className="fa fa-search" /></Nav.Link>
